@@ -2,7 +2,7 @@
 
 <html>
     <head>
-
+<link href="ratchet-theme-android.css" rel="stylesheet">
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -11,6 +11,21 @@
         <title>Hello</title>
     </head>
     <body>
+
+
+      <header class="bar bar-nav">
+  <button class="btn pull-left">
+    Left
+  </button>
+  <button class="btn pull-right">
+    Right
+  </button>
+  <div class="segmented-control">
+    <a class="control-item active">One</a>
+    <a class="control-item">Two</a>
+    <a class="control-item">Three</a>
+  </div>
+</header>
 
 Name<input type="text" id="nameBox"><br>
 Dept<input type="text" id="deptBox"><br>
