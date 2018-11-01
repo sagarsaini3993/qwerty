@@ -86,7 +86,7 @@ function displayResults( tx, results ){
         +"dept: "
         +results.rows.item(i).dept;
 		}
-  s	}
+  	}
 
 
 
